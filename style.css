@@ -1,26 +1,46 @@
 body {
   white-space: pre;
   font-family: monospace;
+  font-size: 18px;
+  background: #282a36;
+  color: #f8f8f2;
+}
+
+a:link, a:hover, a:visited {
+  text-decoration: none;
+}
+
+a:link {
+  color: #ff79c6;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #ff79c6;
 }
 
 .property {
   font-weight: bold;
+  color: #8be9fd;
 }
 
 .type-null {
-  color: gray;
+  color: #bd93f9;
 }
 
 .type-boolean {
-  color: firebrick;
+  color: #bd93f9;
 }
 
 .type-number {
-  color: blue;
+  color: #bd93f9;
 }
 
 .type-string {
-  color: green;
+  color: #f1fa8c;
 }
 
 .callback-function {
@@ -52,7 +72,7 @@ body {
 }
 
 .hovered {
-  background-color: rgba(235, 238, 249, 1);  
+  background-color: #44475a;
 }
 
 .collapser {
